@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://journey-project-backend.vercel.app/",
+  baseURL: "https://journeyprojectbackend-production.up.railway.app/",
 });
 
 API.interceptors.request.use((req) => {
