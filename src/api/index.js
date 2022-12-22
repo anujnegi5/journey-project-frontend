@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://journeyprojectbackend-production.up.railway.app/",
+  baseURL: "https://journey-project-backend.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {
